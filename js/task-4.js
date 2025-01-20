@@ -8,6 +8,7 @@
 
 // Aşağıdaki kodu alın ve doğru çalışıp çalışmadığını kontrol etmek için fonksiyonunuzun tanımlanmasından sonra yapıştırın. Çalışmasının sonuçları konsolda görüntülenecektir.
 
+//yapamadim cozumu copy paste attim lms den 
 const getTotalBalanceByGender = (users, gender) => {
   return users.reduce((total, user) => {
     return user.gender === gender ? total + user.balance : total;
