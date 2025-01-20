@@ -12,6 +12,9 @@
 // Aşağıdaki kodu alın ve çalışmasının doğruluğunu kontrol etmek için fonksiyonunuzun tanımlamadan sonra yapıştırın. Konsol, çalışmanın sonuçlarını gösterecektir.
 
 
+const sortByDescendingFriendCount = (users) => {
+  return users.toSorted((a,b) => b.friends.length - a.friends.length);
+};
 
 console.log(
   sortByDescendingFriendCount([

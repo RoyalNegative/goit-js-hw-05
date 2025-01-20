@@ -20,7 +20,7 @@
 // Aşağıdaki kodu alın ve doğru çalışıp çalışmadığını kontrol etmek için fonksiyonunuzun tanımladıktan sonra yapıştırın. Konsol, çalışmanın sonuçlarını gösterecektir.
 
 const getUsersWithFriend = (users, friendName) => {
-    const array = users.map(user => user.friends.includes(friendName));
+    const array = users.filter(user => user.friends.includes(friendName) );
     return array; 
 };
 
